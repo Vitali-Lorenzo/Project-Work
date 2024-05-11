@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header {
+    background-color: #4b4b4b;
+    padding: 20px 0;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.upper a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .upper a {
+        display: block;
+        margin-bottom: 10px;
+        padding: 1rem 2rem;
+        flex-basis: calc(30% - 0.8rem);
+        margin-bottom: 0.8rem;
+    }
+}
+
+
+.upper a:hover {
+    background-color: #9c9c9c;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    padding: 50px 20px;
+    margin-top: 0;
+    font-family: Italic;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        padding: 220px;
+    }
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.column {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu {
+    display: inline-block;
+    width: 80%; 
+    padding-right: 10px; 
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .column {
+        width: 45%;
+    }
+}
