@@ -19,8 +19,7 @@ h1 {
 .restaurant-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    
+    justify-content: center;
     margin-left: 2rem;
 }
 
